@@ -54,6 +54,18 @@
     top: 140px;
   }
 
+   .grad3-mobile{
+    display: inline-block;
+    box-sizing: border-box;
+    right: 126px;
+    position: fixed;
+    z-index: -1;
+    width: 673px;
+    height: 606px;
+    background: radial-gradient( #0084c5 , rgba(255,0,0,0) , rgba(255,0,0,0));
+    top: 15px;
+  }
+
   .grad4{
 	display: inline-block;
     box-sizing: border-box;
@@ -80,21 +92,17 @@
   }
 
    .grad6{
-    left: 326px;
-    position: absolute;
+    right: -290px;
+    position: fixed;
     z-index: 0;
-    margin-top: -654px;
-    /* margin-left: 9px; */
-    display: inline-block;
-    box-sizing: border-box;
-    font-family: SpacerBlack;
+    margin-top: -655px;
     border-radius: 101;
-    width: 1444px;
+    width: 1872px;
     height: 953px;
-    line-height: 70px;
     padding-top: 30px;
     background: radial-gradient( #0084c5 , rgba(255,0,0,0) , rgba(255,0,0,0));
-  }
+}
+  
 
   .grad7{
 	left: 148px;
@@ -479,6 +487,13 @@ h3 {
 	width: 50%;
 	padding-top: 26px;
 }
+
+.bar3 {
+
+width: 50%;
+padding-top: 26px;
+}
+
 .form-title {
 	color: #fff;
 }
@@ -695,65 +710,67 @@ input[type=btn]:hover {
 
 @media (max-width: 1025px) {
 .column3 {
-	display: none;
+	display: non;
 }
 }
 
 @media (max-width: 1025px) {
 .column2 {
-	display: none;
+	display: non;
 }
 }
 
 @media (max-width: 1025px) {
 .summer {
-	display: none;
+	display: non;
 }
 }
 
 @media (max-width: 1025px) {
 .summer1 {
-	display: none;
+	display: non;
 }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px), (max-height: 620px) {
 .logo_mobile {
 	display: none;
 }
 }
 
-@media (min-width: 1025px) {
+
+
+@media (min-width: 1025px), (max-height: 620px) {
 .bar-mobile {
 	display: none;
 }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px), (max-height: 620px) {
 .header4 {
 	display: none;
 }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1025px), (max-height: 620px) {
 .sum {
 	display: none;
 }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px), (max-height: 620px) {
 .header5 {
 	display: none;
 }
 }
 
-@media (min-width:1025px) {
+@media (min-width:1025px), (max-height: 620px) {
 .cold2 {
 	display: none;
 }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px), (max-height: 620px) {
 .text-mobile2 {
 	display: none;
 }
@@ -873,13 +890,24 @@ padding-bottom:12px;
 
 
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px), (max-height: 620px) {
 .text-mobile {
 	display: none;
 }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1025px), (max-height: 620px) {
+.bar {
+	display: none;
+}
+}
+@media (min-width: 1025px), (min-height: 620px) {
+.bar3 {
+	display: none;
+}
+}
+
+@media (max-width: 1025px), (max-height: 620px) {
 .bar-mobile {
     
     width: 36%;
@@ -887,7 +915,7 @@ padding-bottom:12px;
 }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1025px), (max-height: 620px) {
     .header {
     padding: 7px 48px;
 
@@ -942,15 +970,16 @@ padding-bottom:12px;
 }
 
 
-@media (max-width: 1680px){
+@media (max-width: 1500px), screen and (max-height: 700px){
 .bar {
     margin-left: 29px;
-    padding-top: 76px;
-}
+    padding-top: 66px;
+   
+    }
 }
 
 
-@media (max-width: 1800px){
+@media (max-width: 1800px), screen and (max-height: 650px){
 .inpo {
     margin-left: 100px;
     width: 73%;
@@ -961,7 +990,7 @@ padding-bottom:12px;
     line-height: 30px;
     margin-top: 1px;
     padding-top: 101px;
-    padding-bottom: 96px;
+    padding-bottom: 25px;
 
 	}
 }
@@ -1071,7 +1100,8 @@ padding-bottom:12px;
 
 @media (max-width: 1700px){
 .grad5 {
-    width: 679px;
+    width: 583px;
+    left: -96px;
    
 	}
 }
@@ -1091,16 +1121,17 @@ padding-bottom:12px;
 
 
 
-@media (max-width: 1460px) {
+
+@media (max-width: 1313px), screen and (max-height: 400px) {
 .inpo {
-	
-   
-    margin-left: 46px;   
-    width: 90%;
-    padding:38px;
-   
+	margin-left: 43px;
+    width: 88%;
+    margin-top: -18px;
+    padding-top: 0px;
 }
 }
+
+
 
 
 
@@ -1131,7 +1162,7 @@ h3 {
 }
 }
 
-@media (max-width: 1560px) {
+@media (max-width: 1560px), screen and (max-height: 700px) {
     input[type=btn] {
 	
         padding: 9px 20px;
@@ -1334,8 +1365,7 @@ h3 {
 
 
 
-
-@media (max-width: 1800px) {
+@media (max-width: 1800px), screen and (max-height: 700px) {
 input[type=text], select {
 	
 	width: 100%;
@@ -1360,24 +1390,18 @@ input[type=text], select {
 
 
 
-@media (max-width: 1800px) {
+@media (max-width: 1800px), screen and (max-height: 650px) {
     .logo {
 		width: 60%;
     display: block;
     margin: auto;
     margin-top: -66%;
+
+    
 }
 }
 
 
-@media (max-width: 1700px) {
-    .logo {
-		width: 60%;
-    display: block;
-    margin: auto;
-    margin-top: -74%;
-}
-}
 
 
 @media (max-width: 1500px) {
@@ -1389,17 +1413,6 @@ input[type=text], select {
 }
 }
 
-
-
-
-@media (max-width: 1460px) {
-    .logo {
-		width: 52%;
-    display: block;
-    margin: auto;
-    margin-top: -45%;
-}
-}
 
 
 @media (max-width: 1860px) {
@@ -1445,19 +1458,130 @@ input[type=text], select {
 	line-height: 65px;
 }
 }
+
+@media (max-height: 780px) {
+.header {
+	padding-top: 0px;
+    padding: 0;
+}
+}
+
+@media (max-width: 1600px), (max-height: 780px){
+.row {
+    width: 100%;
+    padding: 73px 58px 10px 58px;
+
+}
+}   
+
+
+
+
+
+
+@media (max-width: 1500px), (max-height: 620px){
+.row {
+    width: 100%;
+    padding: 32px 101px 27px 97px;
+
+}
+}   
+
+
+
+@media (max-width: 1300px), (max-height: 460px){
+.row {
+    width: 100%;
+    padding: 63px 58px 10px 58px;
+
+}
+}  
+
+
+
+
+
+
+
+@media (max-width: 1025px), (max-height: 600px){
+.row {
+    width: 100%;
+    padding: 63px 58px 10px 58px;
+}
+}  
+
+@media (max-width: 1025px), (max-height: 600px){
+    .inpo {
+    margin-left: 0px;
+    width: 35%;
+    margin-top: -18px;
+    padding-top: 0px;
+    position: fixed;
+    top: 102px;
+}
+}  
+
+@media (max-width: 1025px), (max-height: 600px){
+    .bar3 {
+        margin-left: 159px;
+    width: 830px;
+    height: auto;
+    margin-top: 101px;
+    padding: 249px;
+    position: fixed;
+    top: -207px;
+}
+}  
+
+
+
+  
+
+
+  
+  
+ 
+
+
+@media  (max-height: 610px){
+.bar {
+    width: 102%;  
+}
+} 
+
+
+@media (max-width: 1433px), (max-height: 660px){
+.order {
+    line-height: 93px;  
+}
+}
+
+
+@media (max-width: 1520px), (max-height: 550px){
+h3 {
+    padding-top:  15px;  
+}
+} 
+
+@media (max-width: 1320px), (max-height: 550px){
+.logo {
+    margin-top: -81px;
+    position: absolute;
+    width: 11%;
+    left: 172px;
+}  
+} 
+
+ 
+
+   
+
 </style>
 </head>
 <body>
+    <div><img src="file:///C|/Users/vinipoo9/Desktop/tami/bar.png" alt="" class="bar3"> </div>
 
-    <div id="grad-no">
-    
-
-    <div class="grad2"></div>
-    <div class="grad3"></div>
-   
-    <div class="grad5"></div>
-   
-</div>
+    <div class="gra-mobile"></div>
 
     
 <div class="header"> <img src="file:///C|/Users/vinipoo9/Desktop/tami/strauss_water_logo.png" alt="logo" class="logo_mobile">
@@ -1473,7 +1597,7 @@ input[type=text], select {
 </div>
 
 
-<div class="header3"> <img src="bar.png" alt="" class="bar-mobile"> </div>
+<div class="header3"> <img src="file:///C|/Users/vinipoo9/Desktop/tami/bar.png" alt="" class="bar-mobile"> </div>
 <div class="header2">
   <div class="text-mobile2"> <span style="font-size: 19px;  font-family: spacer;font-weight: bold;  color: #fff;">הזמינו ותיהנו ממחיר מיוחד</span> <br>
   </div>
